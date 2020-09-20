@@ -2,4 +2,5 @@
     
     *This can be solved using the common `for` loop. However not so efficient as this one:*
         
-        ``` (b / n) - (a - 1) / n ```
+        ``` result = (b / n) - (a - 1) / n ```
+    **Make sure the result returns an Integer.** 
