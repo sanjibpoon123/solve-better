@@ -1,6 +1,11 @@
-1. Write a program that reads a, b, n and outputs the amount of numbers divisible by n in the range from a to b (a < b) inclusively.
+# Simple yet efficient
+
+#### 1. Calculate amount of numbers divisible by a number (n) from range a to b where a < b (inclusively).
     
-    *This can be solved using the common `for` loop. However not so efficient as this one:*
+*This can be solved using the common `for` loop. However not so efficient as this one:*
         
-        ``` result = (b / n) - (a - 1) / n ```
-    **Make sure the result returns an Integer.** 
+```javascript
+const result = (largeNum / n) - (smallNum - 1) / n
+```
+        
+*Make sure the result returns an Integer.*
